@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kbs-deploy
+  labels:
+    app: kbs-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kbs-deploy
+  template:
+    metadata:
+      labels:
+        app: kbs-deploy
+    spec:
+      containers:
+      - name: kbs-deploy
+        image: 954946645007.dkr.ecr.us-east-2.amazonaws.com/fastapi:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
