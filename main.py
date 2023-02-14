@@ -1,18 +1,12 @@
-"""
-Main cli or app entry point
-"""
+from fastapi import FastAPI
+import uvicorn
 
-from mylib.calculator import add
-import click
+app = FastAPI()
 
-
-@click.command("add")
-@click.argument("a", type=int)
-@click.argument("b", type=int)
-def add_cli(a, b):
-    click.echo(add(a, b))
-
+@app.get("/")
+async def root():
+    return {"message": "Hello Databricks"}
 
 if __name__ == "__main__":
-    # pylint: disable=no-value-for-parameter
-    add_cli()
+    uvicorn.run(app, port=8080, host="0.0.0.0")
+
