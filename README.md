@@ -1,6 +1,7 @@
 [![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
 
-![CD](https://github.com/nogibjj/project2/actions/workflows/aws.yml/badge.svg)
+![CD](https://github.com/nogibjj/project2/actions/workflows/aws.yml/badge.svg?branch=main)
+
 
 ## Kubernetes based Continuous Delivery
 
