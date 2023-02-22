@@ -27,3 +27,7 @@
 
 * `kubectl get service` 
 
+![Figure](https://github.com/nogibjj/project2/blob/main/Screen%20Shot%202023-02-20%20at%209.40.56%20PM.png)
+
+![Figure](https://github.com/nogibjj/project2/blob/main/Screen%20Shot%202023-02-20%20at%209.49.15%20PM.png)
+
