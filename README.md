@@ -1,25 +1,29 @@
 [![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
 ## Template for Python projects 
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+1. First, install.
 
-Things included are:
+* `Install kubectl`
 
-* `Makefile`
+* `Install aws cli tools `
 
-* `Pytest`
+2. Connect to aws eks and config kubernates
 
-* `pandas`
+* `aws eks update-kubeconfig --name [clustername] [region] `
+ 
+* `ls -l ~/.kube `
 
-* `Pylint`
+* `kubectl config use-context arn:aws:eks:us-east-2:954946645007:cluster/kubernates`
 
-* `Dockerfile`
+* `kubectl cluster-info`
 
-* `GitHub copilot`
+3. Deploy
 
-* `jupyter` and `ipython` 
+* `kubectl apply -f eks/deployment.yaml`
 
-* A base set of libraries for devops and web
+* `kubectl get deployments`
 
-* `githubactions` 
+* `kubectl apply -f eks/service.yaml`
+
+* `kubectl get service` 
 
