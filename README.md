@@ -1,5 +1,5 @@
 [![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
-## Template for Python projects 
+## Kubernetes based Continuous Delivery
 
 1. First, install.
 
