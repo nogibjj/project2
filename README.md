@@ -8,6 +8,13 @@
 ### Cluster Architecture
 ![Figure](https://github.com/nogibjj/project2/blob/main/components-of-kubernetes.svg)
 
+### Simple CRUD with FastAPI framework
+#### post
+![Figure](https://github.com/nogibjj/project2/blob/main/Screen%20Shot%202023-02-28%20at%208.25.07%20PM.png)
+#### get
+![Figure](https://github.com/nogibjj/project2/blob/main/Screen%20Shot%202023-02-28%20at%208.25.50%20PM.png)
+![Figure](https://github.com/nogibjj/project2/blob/main/Screen%20Shot%202023-02-28%20at%208.25.57%20PM.png)
+
 ### configure kubernates cluster
 
 ![Figure](https://github.com/nogibjj/project2/blob/main/Screen%20Shot%202023-02-28%20at%207.57.50%20PM.png)
