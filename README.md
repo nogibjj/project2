@@ -5,6 +5,15 @@
 
 ## Kubernetes based Continuous Delivery
 
+### Cluster Architecture
+
+
+### configure kubernates cluster
+
+![Figure](https://github.com/nogibjj/project2/blob/main/Screen%20Shot%202023-02-28%20at%207.57.50%20PM.png)
+
+![Figure](https://github.com/nogibjj/project2/blob/main/Screen%20Shot%202023-02-28%20at%207.58.02%20PM.png)
+
 1. First, install.
 
 * `Install kubectl`
