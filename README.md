@@ -6,7 +6,7 @@
 ## Kubernetes based Continuous Delivery
 
 ### Cluster Architecture
-
+![Figure](https://github.com/nogibjj/project2/blob/main/components-of-kubernetes.svg)
 
 ### configure kubernates cluster
 
